@@ -19,6 +19,9 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardDidShowNotification object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillBeHidden:) name:UIKeyboardWillHideNotification object:nil];
+    
+    mTableView.rowHeight = UITableViewAutomaticDimension;
+    mTableView.estimatedRowHeight = 73.0;
 }
 - (void)viewDidAppear:(BOOL)animated
 {
@@ -129,6 +132,9 @@
         }
     }
     mFlickrPhotoComments.text = [NSString stringWithFormat:@"%i",(int)self.mComments.count];
+    
+    mTableView.rowHeight = UITableViewAutomaticDimension;
+    mTableView.estimatedRowHeight = 73.0;
     [mTableView reloadData];
 }
 #pragma mark Notification Methods

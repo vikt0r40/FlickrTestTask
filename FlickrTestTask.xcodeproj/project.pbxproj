@@ -854,6 +854,7 @@
 				13A41E541D71DAD90035D35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13A41E551D71DAD90035D35A /* Build configuration list for PBXNativeTarget "FlickrTestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -862,6 +863,7 @@
 				13A41E571D71DAD90035D35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13A41E581D71DAD90035D35A /* Build configuration list for PBXNativeTarget "FlickrTestTaskUITests" */ = {
 			isa = XCConfigurationList;
@@ -870,6 +872,7 @@
 				13A41E5A1D71DAD90035D35A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
